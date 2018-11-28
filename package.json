@@ -1,0 +1,42 @@
+{
+  "name": "Alphat",
+  "version": "9.9.9",
+  "description": "LINE",
+  "main": "./src/main.js",
+  "scripts": {
+    "start": "npm run koplaxs1 && npm run koplaxs2 && npm run koplaxs3 && npm run koplaxs4 && npm run koplaxs5",
+    "koplaxs1": "node ./src/bot1.js",
+    "koplaxs2": "node ./src/bot2.js",
+    "koplaxs3": "node ./src/bot3.js",
+    "koplaxs4": "node ./src/bot4.js",
+    "koplaxs5": "node ./src/bot5.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Koplaxs"
+  },
+  "author": "Koplaxs <koplaxs1992@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "qrcode-terminal": "^0.11.0",
+    "node-bignumber": "^1.2.1",
+    "utf8": "^2.1.1"
+  },
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "thrift": "^0.10.0",
+    "thrift-http": "^1.0.1",
+    "unirest": "^0.5.0",
+    "request": "^2.0.0",
+    "request-promise": "^2.0.0",
+    "webp-converter": "^2.1.6",
+    "moment": "^2.18.1"
+  },
+  "bugs": {
+    "url": "https://github.com/Koplaxs"
+  },
+  "homepage": "https://github.com/Koplaxs",
+  "keywords": [
+    "line"
+  ]
+}
